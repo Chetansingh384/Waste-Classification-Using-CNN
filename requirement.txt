@@ -1,0 +1,10 @@
+tensorflow>=2.0.0  
+keras>=2.0.0  
+numpy  
+matplotlib  
+pandas  
+opencv-python  
+scikit-learn  
+scipy  
+pillow  
+tensorflow-datasets  
