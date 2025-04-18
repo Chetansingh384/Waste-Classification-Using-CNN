@@ -58,19 +58,6 @@ python app.py
 
 ---
 
-Waste-Classification-Using-CNN-Model/
-│── waste_classification_model.h5   # Trained CNN model
-│── app.py                          # Flask backend script
-│── requirements.txt                # Required dependencies
-│
-├── templates/
-│   └── index.html                  # Frontend HTML with internal CSS
-│
-└── static/
-    └── uploads/                    # Folder to store uploaded images
-
----
-
 ## 🔬 How It Works
 1. The image is **preprocessed**: resized to **150x150 pixels** and normalized.
 2. The preprocessed image is **fed into the CNN model** for prediction.
