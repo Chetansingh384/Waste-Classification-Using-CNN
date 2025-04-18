@@ -58,15 +58,16 @@ python app.py
 
 ---
 
-## 🏗️ Project Structure
-```
 Waste-Classification-Using-CNN-Model/
-│── waste_classification_model.h5  # Trained CNN model
-│── app.py                         # GUI application script
-│── waste.ipynb                     # Jupyter Notebook for model training
-│── README.md                      # Project documentation
-└── requirements.txt                # Required dependencies
-```
+│── waste_classification_model.h5   # Trained CNN model
+│── app.py                          # Flask backend script
+│── requirements.txt                # Required dependencies
+│
+├── templates/
+│   └── index.html                  # Frontend HTML with internal CSS
+│
+└── static/
+    └── uploads/                    # Folder to store uploaded images
 
 ---
 
